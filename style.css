@@ -44,6 +44,8 @@ form #a1 input {
   text-align: right;
 }
 
+/* Desktop (max-width: 1080px) */
+
 @media (max-width: 1080px) {
   form {
     width: 50%;
@@ -62,9 +64,8 @@ form #a1 input {
   }
 }
 
-/* ========================= */
 /* TABLET (max-width: 768px) */
-/* ========================= */
+
 @media (max-width: 768px) {
   form {
     width: 60%;
@@ -83,9 +84,8 @@ form #a1 input {
   }
 }
 
-/* ========================= */
 /* MOBILE (max-width: 480px) */
-/* ========================= */
+
 @media (max-width: 480px) {
   form {
     width: 85%;
@@ -110,9 +110,8 @@ form #a1 input {
   }
 }
 
-/* ========================= */
 /* EXTRA SMALL DEVICES (max-width: 320px) */
-/* ========================= */
+
 @media (max-width: 320px) {
   form {
     width: 95%;
